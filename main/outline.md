@@ -13,7 +13,6 @@
 ### Non-Goals
  - Discuss js environment specific microstask behavior (i.e. node v browser)
 
-
 ## Activities
 1. As a group, share [warmup](../warmup/prompt.md) predictions and justifications  _(Goals 1.1, 1.2)_
 2. As a group, review: 
@@ -25,8 +24,8 @@
    - [`exercise2.js`](./code/exercise2.js)
    - [`exercise3.js`](./code/exercise3.js)
    - [`exercise4.js`](./code/exercise4.js)
-4. As a group, use microtasks to stall the event loop _(Goals 2.4)_
-5. As a group, identify how microtasks can mitigate issues with [`cache-v1.mjs`](./code/cache-v1.mjs) and [`cache-client.js`](./code/cache-client.js) _(Goals 2.5)_
+4. As a group, use microtasks to stall the event loop _(Goal 2.4)_
+5. As a group, identify how microtasks can mitigate issues with [`cache-v1.mjs`](./code/cache-v1.mjs) and [`cache-client.js`](./code/cache-client.js) _(Goal 2.5)_
 
 ## Resources
 - [slides](./resources/slides.pdf)
@@ -34,6 +33,6 @@
 - [demo visualization](./resources/demo-visualization.pdf)
 
 ## External Resources
-- [The Event Loop @ MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/EventLoop)
-- [Microtask Guide @ MDN](https://developer.mozilla.org/en-US/docs/Web/API/HTML_DOM_API/Microtask_guide)
+- ["The Event Loop" @ MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/EventLoop)
+- ["Microtask Guide" @ MDN](https://developer.mozilla.org/en-US/docs/Web/API/HTML_DOM_API/Microtask_guide)
 
