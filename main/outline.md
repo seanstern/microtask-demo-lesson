@@ -19,14 +19,14 @@
 2. As a group, review: 
   1. event loop's model for processing microtask _(Goal 2.1)_
   2. common js language features that enqueue microtasks _(Goal 2.2)_
-3. Individually predict how the following behave; as a group, share predictions and justifications _(Goals 2.1, 2.2, 2.3)_
-  - [demo](./code/demo.js)
-  - [exercise1](./code/exercise1.js)
-  - [exercise2](./code/exercise2.js)
-  - [exercise3](./code/exercise3.js)
-  - [exercise4](./code/exercise4.js)
+3. Individually predict how the following programs behave; as a group, share predictions and justifications _(Goals 2.1, 2.2, 2.3)_
+   - [`demo.js`](./code/demo.js)
+   - [`exercise1.js`](./code/exercise1.js)
+   - [`exercise2.js`](./code/exercise2.js)
+   - [`exercise3.js`](./code/exercise3.js)
+   - [`exercise4.js`](./code/exercise4.js)
 4. As a group, use microtasks to stall the event loop _(Goals 2.4)_
-5. As a group, identify how microtasks can mitigate issues with [cache-v1](./code/cache-v1.mjs) and [cache-client](./code//cache-client.js) _(Goals 2.5)_
+5. As a group, identify how microtasks can mitigate issues with [`cache-v1.mjs`](./code/cache-v1.mjs) and [`cache-client.js`](./code/cache-client.js) _(Goals 2.5)_
 
 ## Resources
 - [slides](./resources/slides.pdf)
