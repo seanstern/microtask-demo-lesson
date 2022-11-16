@@ -16,8 +16,8 @@
 ## Activities
 1. As a group, share [warmup](../warmup/prompt.md) predictions and justifications  _(Goals 1.1, 1.2)_
 2. As a group, review: 
-  1. event loop's model for processing microtask _(Goal 2.1)_
-  2. js language features that enqueue microtasks[^1] _(Goal 2.2)_
+   1. event loop's model for processing microtask _(Goal 2.1)_
+   2. js language features that enqueue microtasks[^1] _(Goal 2.2)_
 3. Individually predict how the following programs behave; as a group, share predictions and justifications _(Goals 2.1, 2.2, 2.3)_
    - [`demo.js`](./code/demo.js)
    - [`exercise1.js`](./code/exercise1.js)
