@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <textarea id="userText"></textarea>
+    <button onclick="startLogging()">Start Log</button>
+    <button onclick="stopLogging()">Stop Log</button>
+  </body>
+  <script>
+    let toid = null;
+
+    function startLogging() {
+      const v = document.getElementById("userText").value;
+      console.log(v);
+      toid = setTimeout(startLogging, 0);
+    }
+
+    function stopLogging() {
+      if (toid !== null) {
+        clearTimeout(toid);
+        toid = null;
+      }
+    }
+  </script>
+</html>
